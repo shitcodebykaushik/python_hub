@@ -1,5 +1,5 @@
 # Bill generator 
-
+# Academic code .
 print("Welcome to bill generator")
 print("Enter your phone price")
 Phone=int (input())
@@ -90,3 +90,45 @@ while True :
     for name in catNames:
        print (''+name)
 # Leap year 
+
+# Program to find the Boolean operators .
+while True or False:
+    a = 1
+    b = 2
+    c = 1
+    if (a==c) and (a==2):
+        print ("One")
+    break 
+print ("Done")
+
+
+# Programm to check user acces 
+
+print("Enter the user details")
+name = input()
+
+if name == 'Kaushik': 
+    print("Enter the password")
+else :
+    print ("Your username is wrong")
+    password = input()
+    
+    if password == "catfish":
+        print("Access granted")
+
+
+# Chicken problem .
+print("Welcome to the  Chicken and Rabit calculator ")
+# Total number of heads
+total_heads = 35
+
+# Total number of legs
+total_legs = 94
+
+# Applying the linear equation 
+
+chickens = (4*total_heads - total_legs) // 2 
+rabits = total_heads -chickens
+# Printing the details 
+print (chickens)
+print (rabits)   

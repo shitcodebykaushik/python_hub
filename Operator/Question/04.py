@@ -141,3 +141,22 @@ trucks = (wheels - 4 * vehicles) / 2
 cars = vehicles - trucks
 print ("The total number of the cars is ",cars)
 print ("The total number of the trucks i",trucks)
+
+# Loan system 
+print("Welcome to the loan system")
+credit_score = float(input("Input your credit score: "))
+
+if credit_score > 600:
+    gross_income = float(input("Kindly provide your gross income: "))
+    
+    if gross_income > 30000:
+        debt_income = float(input("Enter your debt-to-income ratio as a decimal value: "))
+        
+        if debt_income <= 0.4:
+            print("You are eligible for the loan. Congratulations!")
+        else:
+            print("You are not eligible for the loan due to high debt-to-income ratio.")
+    else:
+        print("You are not eligible for the loan due to low gross income.")
+else:
+    print("You are not eligible for the loan due to low credit score.")

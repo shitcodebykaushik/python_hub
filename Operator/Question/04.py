@@ -132,3 +132,12 @@ rabits = total_heads -chickens
 # Printing the details 
 print (chickens)
 print (rabits)   
+
+# Truck and wheel problem 
+print ("Calculation of the car ad truck ")
+vehicles = 20
+wheels = 104
+trucks = (wheels - 4 * vehicles) / 2
+cars = vehicles - trucks
+print ("The total number of the cars is ",cars)
+print ("The total number of the trucks i",trucks)

@@ -27,4 +27,6 @@ def findLongestConseqSubseq(arr, n):
 if __name__ == '__main__':
 	arr = [ 1, 94, 93, 1000, 5, 92, 78 ];
 	n = len(arr);
-	print(findLongestConseqSubseq(arr, n));
+	print(findLongestConseqSubseq(arr, n)); 
+ 
+

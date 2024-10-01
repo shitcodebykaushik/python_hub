@@ -1,5 +1,5 @@
 
-number_to_guess = 3    # This is the local varible storage where we have stored the number 
+number_to_guess = 3    # This is the local varible storage where we have stored the number
 attempts = 3           # This is number of the attempts we are givinig
 
 while attempts > 0:
@@ -18,7 +18,7 @@ while attempts > 0:
             break
         else:
             print("Wrong guess. Try again.")
-            attempts -= 1      # This is deducting our 
+            attempts -= 1      # This is deducting our chance  
             
     elif choice == "2":
         if number_to_guess % 2 == 0:
@@ -36,3 +36,5 @@ while attempts > 0:
 
 if attempts == 0:
     print("\nSorry, you've used all your attempts. The number was:", number_to_guess)
+
+

@@ -36,3 +36,4 @@ This quiz game app allows users to start a quiz, answer questions across multipl
 - Node.js (optional, only if you want to use a different server to serve the frontend)
   
 Open the frontend by going to http://127.0.0.1:8000 in a web browser.
+Run this also  `python -m http.server 8000`

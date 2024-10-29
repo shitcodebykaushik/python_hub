@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Quiz Game</h1>
+
+        <!-- Start Section -->
+        <div id="start-section">
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz-section" class="hidden">
+            <h2 id="quiz-level"></h2>
+            <div id="question-container"></div>
+            <button id="submit-btn">Submit Answers</button>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result-section" class="hidden">
+            <h2 id="result-message"></h2>
+            <button id="next-level-btn" class="hidden">Next Level</button>
+            <div id="path-selection" class="hidden">
+                <button id="bca-path-btn">Choose BCA Path</button>
+                <button id="btech-path-btn">Choose B.Tech Path</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

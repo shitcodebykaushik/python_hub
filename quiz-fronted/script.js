@@ -12,7 +12,7 @@ const questionContainer = document.getElementById('question-container');
 const resultMessage = document.getElementById('result-message');
 const quizLevel = document.getElementById('quiz-level');
 
-let userId = "user123";  // Simulated user ID; replace with dynamic ID if needed
+let userId = "user123";
 let currentLevel = "start";
 let selectedPath = null;
 
@@ -36,7 +36,6 @@ submitBtn.addEventListener('click', () => {
         toggleSections(resultSection);
 
         if (data.options) {
-            // Show path selection buttons for level 3
             document.getElementById('path-selection').classList.remove('hidden');
         } else if (data.questions) {
             nextLevelBtn.classList.remove('hidden');
@@ -48,8 +47,6 @@ submitBtn.addEventListener('click', () => {
 // Choose between BCA or B.Tech path
 bcaPathBtn.addEventListener('click', () => selectPath("bca"));
 btechPathBtn.addEventListener('click', () => selectPath("btech"));
-
-// Helper Functions
 
 // Load questions for each level
 function loadQuestions(questions, level) {
